@@ -36,6 +36,7 @@ To complete this recitation, follow the instructions in this document. Some of y
 ## Comparing search algorithms
 
 We'll compare the running times of `linear_search` and `binary_search` empirically.
+
 `Binary Search`: Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise, narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
 
 - [ ] 1. In `main.py`, the implementation of `linear_search` is already complete. Your task is to implement `binary_search`. Implement a recursive solution using the helper function `_binary_search`. 
