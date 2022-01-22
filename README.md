@@ -16,6 +16,7 @@ To complete this recitation, follow the instructions in this document. Some of y
 - Click on your personal github repository for the assignment (e.g., https://github.com/allan-tulane/sp22-recitation01-your_username).
 - Click on the "Work in Repl.it" button. This will launch an instance of `repl.it` initialized with the code from your repository.
 - You'll work with a partner to complete this recitation. To do so, we'll break you into Zoom rooms. You will be able to code together in the same `repl.it` instance. You can choose whose repl.it instance you will share. This person will click the "Share" button in their repl.it instance and email the lab partner.
+- Make sure the dependencies are installed. Please use 'pip install -r requirements.txt'.
 
 ## Running and testing your code
 - In the command-line window, run `./ipy` to launch an interactive IPython shell. This is an interactive shell to help run and debug your code. Any code you change in `main.py` will be reflected from this shell. So, you can modify a function in `main.py`, then test it here.
