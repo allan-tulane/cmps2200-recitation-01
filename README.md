@@ -7,6 +7,9 @@ In this recitation, we will investigate asymptotic complexity. Additionally, we 
 
 To complete this recitation, follow the instructions in this document. Some of your answers will go in this file, and others will require you to edit `main.py`.
 
+## Install Python Dependency
+
+
 
 ## Running and testing your code
 
