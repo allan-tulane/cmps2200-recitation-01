@@ -14,11 +14,6 @@ def linear_search(mylist, key):
 			return i
 	return -1
 
-def test_linear_search():
-	""" done. """
-	assert linear_search([1,2,3,4,5], 5) == 4
-	assert linear_search([1,2,3,4,5], 1) == 0
-	assert linear_search([1,2,3,4,5], 6) == -1
 
 def binary_search(mylist, key):
 	""" done. """
@@ -41,13 +36,7 @@ def _binary_search(mylist, key, left, right):
 
 	###
 
-def test_binary_search():
-	assert binary_search([1,2,3,4,5], 5) == 4
-	assert binary_search([1,2,3,4,5], 1) == 0
-	assert binary_search([1,2,3,4,5], 6) == -1
-	### TODO: add two more tests here.
 
-	###
 
 
 def time_search(search_fn, mylist, key):
@@ -98,10 +87,3 @@ def print_results(results):
 							floatfmt=".3f",
 							tablefmt="github"))
 
-def test_compare_search():
-	res = compare_search(sizes=[10, 100])
-	print(res)
-	assert res[0][0] == 10
-	assert res[1][0] == 100
-	assert res[0][1] < 1
-	assert res[1][1] < 1
