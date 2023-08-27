@@ -8,20 +8,8 @@ In this recitation, we will investigate asymptotic complexity. Additionally, we 
 To complete this recitation, follow the instructions in this document. Some of your answers will go in this file, and others will require you to edit `main.py`.
 
 
-## Setup
-- Make sure you have a Github account.
-- Login to Github.
-- Login to repl.it, using "sign in with github"
-- Click on the assignment link sent through canvas and accept the assignment. 
-- Click on your personal github repository for the assignment.
-- Login in Repls https://replit.com/repls and then create a new replit by importing from github repository.
-- You'll work with a partner to complete this recitation. To do so, we'll break you into Zoom rooms. You will be able to code together in the same `repl.it` instance. You can choose whose repl.it instance you will share. This person will click the "Share" button in their repl.it instance and email the lab partner.
-- Make sure the dependencies are installed. Please use 'pip install -r requirements.txt' or 'pip install pytest', 'pip install tabulate'.
-
 ## Running and testing your code
-- In the command-line window, run `./ipy` to launch an interactive IPython shell. This is an interactive shell to help run and debug your code. Any code you change in `main.py` will be reflected from this shell. So, you can modify a function in `main.py`, then test it here.
-  + If it seems things don't refresh, try running `from main import *`
-- You can exit the IPython prompt by either typing `exit` or pressing `ctrl-d`
+
 - To run tests, from the command-line shell, you can run
   + `pytest test_main.py` will run all tests
   + `pytest test_main.py::test_one` will just run `test_one`
