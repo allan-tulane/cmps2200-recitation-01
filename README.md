@@ -9,7 +9,7 @@ To complete this recitation, follow the instructions in this document. Some of y
 
 ## Install Python Dependency
 
-
+We need Python library of "tabulate" to visualize the results in a good shape. Please install it by running 'pip install tabulate' or 'pip install -r requirements.txt' in Shell Tab of Repl.  
 
 ## Running and testing your code
 
