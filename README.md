@@ -33,7 +33,7 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 
 - [ ] 1. In `main.py`, the implementation of `linear_search` is already complete. Your task is to implement `binary_search`. Implement a recursive solution using the helper function `_binary_search`. 
 
-- [ ] 2. Test that your function is correct by calling from the command-line `pytest main.py::test_binary_search`
+- [ ] 2. Test that your function is correct by calling from the command-line `pytest test_main.py::test_binary_search`
 
 - [ ] 3. Write at least two additional test cases in `test_binary_search` and confirm they pass.
 
@@ -47,7 +47,7 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 
 - [ ] 6. Complete the `time_search` function to compute the running time of a search function. Note that this is an example of a "higher order" function, since one of its parameters is another function.
 
-- [ ] 7. Complete the `compare_search` function to compare the running times of linear search and binary search. Confirm the implementation by running `pytest main.py::test_compare_search`, which contains some simple checks.
+- [ ] 7. Complete the `compare_search` function to compare the running times of linear search and binary search. Confirm the implementation by running `pytest test_main.py::test_compare_search`, which contains some simple checks.
 
 - [ ] 8. Call `print_results(compare_search())` and paste the results here:
 
