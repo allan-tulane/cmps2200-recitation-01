@@ -44,7 +44,7 @@ def time_search(search_fn, mylist, key):
 	Return the number of milliseconds to run this
 	search function on this list.
 
-	Note 1: `sort_fn` parameter is a function.
+	Note 1: `search_fn` parameter is a function.
 	Note 2: time.time() returns the current time in seconds. 
 	You'll have to multiple by 1000 to get milliseconds.
 
